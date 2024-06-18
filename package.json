@@ -1,9 +1,11 @@
 {
+  "homepage": "Alireza-beyranvand.github.io/server",
   "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy" : "gh-pages -d dist",
     "start" : "json-server --watch musicServer.json -p3000"
   },
   "keywords": [],
